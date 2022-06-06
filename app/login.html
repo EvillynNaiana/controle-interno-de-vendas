@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/login.css" />
+    <title>Login</title>
+</head>
+
+<body>
+    <script src="/assets/scripts/login.js"></script>
+    <div class="login">
+        <form action="/pagina-processa-dados-do-form" method="post">
+            <div class="conteudo-login">
+                <img src="/assets/img/logo.png" alt="">
+            </div>
+            <div class="conteudo-login">
+                <label for="name">Nome:</label>
+                <input type="text" id="name" />
+            </div>
+            <div class="conteudo-login">
+                <label for="mail">E-mail:</label>
+                <input type="email" id="mail" />
+            </div>
+            <div class="conteudo-login">
+                <label for="pass">Senha:</label>
+                <input type="password" id="pass" name="password" minlength="8"
+                    required>
+            </div>
+            <div class="conteudo-login">
+                <input type="submit" value="Entrar">
+            </div>
+    </div>
+    </div>
+    </form>
+
+</body>
+
+</html>
