@@ -17,7 +17,7 @@ Temporizadores
 Funções
 
 - [ ] Função anônima com argumento
-- [ ] Função anônima sem argumento
+- [ok] Função anônima sem argumento
 - [ ] Função anônima com retorno
 - [ ] Função auto-executável
 - [ ] Função com nome
