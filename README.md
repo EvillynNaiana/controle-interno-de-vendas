@@ -5,9 +5,9 @@ GitHub Pages:
 
 Caixas de Diálogo
 
-- [ ] prompt
-- [ ] alert
-- [ ] confirm
+- [ok] prompt
+- [ok] alert
+- [ok] confirm
 
 Temporizadores
 
