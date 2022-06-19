@@ -5,19 +5,19 @@ GitHub Pages:
 
 Caixas de Diálogo
 
-- [ok] prompt
-- [ok] alert
-- [ok] confirm
+- [x] prompt
+- [x] alert
+- [x] confirm
 
 Temporizadores
 
-- [ok] setInterval
-- [ok] setTimeout
+- [x] setInterval
+- [x] setTimeout
 
 Funções
 
 - [ ] Função anônima com argumento
-- [ok] Função anônima sem argumento
+- [x] Função anônima sem argumento
 - [ ] Função anônima com retorno
 - [ ] Função auto-executável
 - [ ] Função com nome
@@ -27,10 +27,10 @@ Funções
 
 Eventos
 
-- [ok] Evento de carregamento do documento - onload
+- [x] Evento de carregamento do documento - onload
 - [ ] Evento de movimento do mouse
 - [ ] Evento de teclado - usar charCode ou keyCode
-- [ok] Eventos de formulário - onfocus e onblur
+- [x] Eventos de formulário - onfocus e onblur
 - [ ] Imprimir alguma propriedade do objeto event recebido como parâmetro
 - [ ] Propagação de eventos no modelo bolha (usar target e currentTarget, ou seja, disparar o evento em um elemento filho e capturar em um elemento pai) 
 
