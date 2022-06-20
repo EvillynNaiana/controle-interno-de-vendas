@@ -17,13 +17,13 @@ Temporizadores
 Funções
 
 - [ ] Função anônima com argumento
-- [x] Função anônima sem argumento
+- [ ] Função anônima sem argumento
 - [ ] Função anônima com retorno
 - [x] Função auto-executável
 - [x] Função com nome
 - [ ] Função aninhada/local - declarar uma função dentro de outra
 - [ ] Passagem de uma função como parâmetro
-- [z] Função Flecha - Arrow Function
+- [x] Função Flecha - Arrow Function
 
 Eventos
 
@@ -54,7 +54,7 @@ Objetos Nativos
 - [ ] Usar pelo menos 3 métodos de manipulação de array
 - [ ] Usar laço de repetição (for..in ou for..of ou forEach)
 - [ ] Usar pelo menos 3 métodos para manipulação de string
-- [ ] String Template
+- [x] String Template
 
 Objetos
 
