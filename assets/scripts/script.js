@@ -1,1 +1,0 @@
-//document.onload(alert('Olá, seja bem vindo ao Talk Technology!'));

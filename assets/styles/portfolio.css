@@ -1,0 +1,218 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: monospace;
+}
+
+body {
+    background: url(/assets/img/tela-fundo.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+#cabecalho-logo {
+    color: #ffffff;
+    user-select: none;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 1em;
+}
+
+.conteudo-menu {
+    justify-content: space-between;
+    display: flex;
+    width: 100%;
+    background-color: #000000;
+    padding: 1em 2.5em;
+}
+
+a {
+    text-decoration: none;
+    font-size: large;
+    color: #fff;
+}
+
+
+input {
+    position: absolute;
+    bottom: 50px;
+    left: 50%;
+    display: flex;
+    background-color: rgb(38, 42, 73);
+    width: 100px;
+    transition: .6s;
+    padding: 1em;
+    align-items: center;
+    border-radius: 10px;
+    border-color:black;
+    font-weight: bolder;
+    text-shadow: white -1px 5px;
+}
+
+
+
+.botao:hover {
+    opacity: .65;
+    cursor: pointer;
+}
+
+h2 {
+    text-align: center;
+    font-size: 24px;
+    color: white;
+}
+
+.gallery {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    height: 90%;
+    max-height: 28vw;
+    overflow: hidden;
+}
+
+.gallery__stream {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    height: 100%;
+}
+
+.gallery__item {
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    transition: 1s all ease;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    border-radius: 5px;
+}
+/* :nth-child() usada como uma pseudo classe*/
+.gallery__item:nth-child(1) {
+    left: 0;
+    z-index: 1;
+    transform: translateX(-100%) scale(.8);
+}
+
+.gallery__item:nth-child(2) {
+    left: 0;
+    z-index: 2;
+    transform: translateX(-50%) scale(.8);
+}
+
+.gallery__item:nth-child(3) {
+    left: 50%;
+    z-index: 4;
+    transform: translateX(-50%) scale(1);
+}
+
+.gallery__item:nth-child(4) {
+    left: 100%;
+    z-index: 2;
+    transform: translateX(-50%) scale(.8);
+}
+
+.gallery__item:nth-child(n+5) {
+    left: 100%;
+    z-index: 1;
+    transform: scale(.8);
+}
+
+/* Backgrounds */
+
+.ft-1 {
+    background-image: url(/assets/img/1.png);
+}
+.ft-2 {
+    background-image: url(/assets/img/2.png);
+}
+
+.ft-3 {
+    background-image: url(/assets/img/3.png);
+}
+
+.ft-4 {
+    background-image: url(/assets/img/4.png);
+}
+
+.ft-5 {
+    background-image: url(/assets/img/5.png);
+}
+
+
+/* Controles */
+
+.gallery__prev,
+.gallery__next {
+    position: absolute;
+    top: 50%;
+    z-index: 4;
+    width: 50%;
+    height: 100%;
+    transform: translateX(-50%) translateY(-50%) scale(.8);
+    cursor: pointer;
+}
+
+.gallery__prev {
+    left: 0;
+}
+
+.gallery__next {
+    left: 100%;
+}
+
+/* Sombras */
+
+.gallery:before,
+.gallery:after {
+    display: block;
+    content: "";
+    position: absolute;
+    top: 0;
+    width: 20%;
+    height: 100%;
+    z-index: 3;
+}
+
+.gallery:before {
+    left: 0;
+    background: linear-gradient(to right, rgb(71, 66, 66) 0%, rgba(107, 26, 26, 0) 100%);
+}
+
+.gallery:after {
+    right: 0;
+    background: linear-gradient(to left, rgb(71, 66, 66) 0%, rgba(0, 0, 0, 0) 100%);
+}
+
+.conteudo-menu a:hover {
+    opacity: .7;
+    transition: 1s;
+}
+
+.rodape {
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    height: 60px;
+    width: 100%;
+    background-color: #000000;
+    color: #ffffff;
+    align-items: center;
+    gap: 1em;
+    padding-left: 25%;
+    user-select: none;
+}
+
+.rodape img {
+    border-radius: 10px;
+    width: 50px;
+}

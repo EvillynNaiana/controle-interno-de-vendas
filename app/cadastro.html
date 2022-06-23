@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <title>Cadastro</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/styles/cadastro.css" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+        rel="stylesheet">
+
+</head>
+
+<body>
+    <header>
+        <div class="conteudo-menu">
+            <a href="/index.html">
+                <h1 id="cabecalho-logo"> Talk Technology</h1>
+            </a>
+
+            <ul class="menu">
+                <li><a href="relatorios.html">Relatórios</a></li>
+                <li><a href="cadastro.html">Cadastre-se</a></li>
+                <li><a href="5s.html">5S</a></li>
+                <li><a href="login.html">Login</a></li>
+            </ul>
+        </div>
+    </header>
+    
+    <main>
+        <form name="meu_form">
+            <div class="formulario">
+                <label for="nome">Nome</label>
+                <input type="text" id="nomeid" placeholder="Nome" required="required" name="nome" />
+                <label for="fone">Fone</label>
+                <input type="tel" id="foneid" placeholder="(xx)xx-xx-xx-xx"name="fone" />
+                <label for="email">Email</label>
+                <input type="email" id="emailid" placeholder="digite seu e-mail aqui" name="email" />
+                <label for="senha">Senha</label>
+                <input type="password" name="senha" id="senha" placeholder="Crie uma Senha">
+                <label for="endereco">Endereço</label>
+                <input type="text" name="endereco" id="endereco">
+                <label for="gênero">Gênero</label>
+                <input type="radio" name="sexof" value="feminino" id="genero"> feminino
+                <input type="radio" name="sexom" value="masculino"> Masculino
+                <label for="nascimento">Data de nascimento</label>
+                <input type="date" name="nascimento" id="nascimento">
+                <label for="file">Certificação</label>
+                <input type="file" name="arquivos">
+                <label for="idade"> <p>Qual sua idade?</p></label>
+                <input type="radio" name="idade" value="18_22">18 a 22 <br>
+                <input type="radio" name="idade" value="23_30">23 a 30 <br>
+                <input type="radio" name="idade" value="mais31">acima de 31<br>
+                <input type="submit" class="enviar" onclick="Enviar();" value="Enviar" />
+            </div>
+        </form>
+        
+    </main>
+
+    <footer>
+        <div class="rodape">
+            <img src="/assets/img/empresalogo.png" alt="tecnologia">
+            <p>Copyright (C) 2022 Talk Technology - Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="node_modules/materialize-css/dist/js/"></script>
+    <script src="assets/libraries/jquery-3.6.0.js"></script>
+    <script src="/assets/scripts/cadastro.js"></script>
+</body>
+
+</html>

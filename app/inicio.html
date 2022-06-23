@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <title>Talk Technology</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Um site de relatórios internos, que visa a melhor análise para sua empresa">
+    <link rel="stylesheet" href="/assets/styles/inicio.css" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+        rel="stylesheet">
+    <link rel="stylesheet"
+        href="node_modules/materialize-css/dist/css/materialize.css">
+</head>
+
+<body
+    <header>
+        <div class="conteudo-menu">
+            <a href="/index.html">
+                <h1 id="cabecalho-logo"> Talk Technology</h1>
+            </a>
+
+            <ul class="menu">
+                <li><a href="/app/portfolio.html">Relatórios</a></li>
+                <li><a href="/app/cadastro.html">Cadastre-se</a></li>
+                <li><a href="/app/5s.html">5S</a></li>
+                <li><a href="/app/login.html">Login</a></li>
+            </ul>
+        </div>
+    </header>
+    <!-- atribuição inline-->
+    <main>
+        <video width="500" height="300" controls="controls" autoplay="autoplay">
+        <source src="/assets/video/talk.mp4" type="video/mp4">
+        <object data="" width="500" height="300">
+        <embed width="500" height="300" src="/assets/video/talk.mp4">
+        </object>
+        </video>
+        <div class="conteudo-main">
+            <div class="botao-modal">
+                <button class="botao" onclick="abrirModal();">O que fazemos?</button>
+            </div>
+            <div id="fundo"></div>
+            <div id="modal">
+                <button id="fechar-modal" class="botao"
+                    onclick="fecharModal()">fechar
+                </button>
+                <div class="texto">
+                    <h2><br>Nesta empresa você terá o mais avançado sistema de
+                        relatórios<br>
+                        com designer inclusivos e informações precisas sobre
+                        seus<br>
+                        produtos e serviços.<br>
+                        <br> Venha já ser Technology!
+                    </h2>
+                </div>
+            </div>
+        </div>    
+    </main>
+    
+    <footer>
+        <div class ="rodape">
+            <img id="zoom" src="/assets/img/empresalogo.png" alt="tecnologia">
+            <p>Copyright (C) 2022 Talk Technology - Todos os direitos reservados.</p>
+        </div>
+    </footer>
+    
+    <script src="node_modules/materialize-css/dist/js/"></script>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.7.2.min.js"></script>
+    <script type="text/javascript" src="http://code.jquery.com/qunit/qunit-1.11.0.js"></script>
+    <script src="/assets/scripts/inicio.js"></script>
+</body>
+
+</html>
