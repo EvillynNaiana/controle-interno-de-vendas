@@ -12,7 +12,7 @@ Caixas de Diálogo
 Temporizadores
 
 - [x] setInterval
-- [x] setTimeout
+- [] setTimeout
 
 Funções
 
@@ -47,7 +47,7 @@ Tratadores de Evento
 - [x] Especificar o tratador de evento inline
 - [x] Especificar o tratador de evento no carregamento da página HTML no modo tradicional - no onload
 - [x] Especificar o tratador de evento no carregamento da página HTML com a função addEventListener - no onload
-- [ ] Usar o operador this em funções tratadoras de eventos.
+- [x] Usar o operador this em funções tratadoras de eventos.
 
 Objetos Nativos
 
